@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/input-leap/input-leap.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="gui test"
+IUSE="wayland gui test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="

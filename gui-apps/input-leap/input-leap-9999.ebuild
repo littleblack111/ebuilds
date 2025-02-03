@@ -39,7 +39,7 @@ DEPEND="
 BDEPEND="
 	virtual/pkgconfig
 	gui? ( dev-qt/qttools:6[linguist] )
-  wayland? ( dev-libs/libportal )
+  wayland? ( dev-libs/libportal dev-libs/libei )
 "
 
 DOCS=(
